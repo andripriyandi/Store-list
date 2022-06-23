@@ -11,13 +11,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
+  # Resources
+  services:
+    path: ../../resources/services
+
+  # Data
+  data:
+    path: ../../data
+
+  # Features
+  stores:
+    path: ../stores
+
   # Shared Libraries
   dependencies:
     path: ../../shared_libraries/dependencies
   component:
     path: ../../shared_libraries/component
-
 
 dev_dependencies:
   flutter_test:
